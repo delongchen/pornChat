@@ -1,15 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-  </div>
+  <b-container id="app">
+    <mes-board />
+  </b-container>
 </template>
 
 <script>
-export default {
-  name: 'App',
-  components: {
+  import MesBoard from "@/components/MesBoard";
+  export default {
+    name: 'App',
+    components: {
+      MesBoard
+    }
   }
-}
 </script>
 
 <style>
@@ -17,7 +19,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>

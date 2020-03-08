@@ -1,24 +1,12 @@
 # porn_chat
 
-## Project setup
-```
-yarn install
-```
+这是一个伟大的项目
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+由我和另一个憨憨共同开发
 
-### Compiles and minifies for production
-```
-yarn build
-```
+希望实现:
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 创建房间
+- 匿名聊天
+- 能发图片
+- 色图机器人
